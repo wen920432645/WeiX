@@ -1,0 +1,45 @@
+[ 2017-05-25T15:56:22+08:00 ] 127.0.0.1 /index.php
+NOTIC: [2] file_put_contents(./Application/Common/): failed to open stream: No such file or directory D:\itcast\php9\tp_shop\ThinkPHP\Library\Think\Build.class.php 第 161 行.
+NOTIC: [2] file_put_contents(./Application/Common/Common/): failed to open stream: No such file or directory D:\itcast\php9\tp_shop\ThinkPHP\Library\Think\Build.class.php 第 161 行.
+NOTIC: [2] file_put_contents(./Application/Common/Conf/): failed to open stream: No such file or directory D:\itcast\php9\tp_shop\ThinkPHP\Library\Think\Build.class.php 第 161 行.
+NOTIC: [2] file_put_contents(./Application/Admin/): failed to open stream: No such file or directory D:\itcast\php9\tp_shop\ThinkPHP\Library\Think\Build.class.php 第 161 行.
+NOTIC: [2] file_put_contents(./Application/Admin/Common/): failed to open stream: No such file or directory D:\itcast\php9\tp_shop\ThinkPHP\Library\Think\Build.class.php 第 161 行.
+NOTIC: [2] file_put_contents(./Application/Admin/Controller/): failed to open stream: No such file or directory D:\itcast\php9\tp_shop\ThinkPHP\Library\Think\Build.class.php 第 161 行.
+NOTIC: [2] file_put_contents(./Application/Admin/Model/): failed to open stream: No such file or directory D:\itcast\php9\tp_shop\ThinkPHP\Library\Think\Build.class.php 第 161 行.
+NOTIC: [2] file_put_contents(./Application/Admin/Conf/): failed to open stream: No such file or directory D:\itcast\php9\tp_shop\ThinkPHP\Library\Think\Build.class.php 第 161 行.
+NOTIC: [2] file_put_contents(./Application/Admin/View/): failed to open stream: No such file or directory D:\itcast\php9\tp_shop\ThinkPHP\Library\Think\Build.class.php 第 161 行.
+NOTIC: [2] file_put_contents(./Application/Runtime/): failed to open stream: No such file or directory D:\itcast\php9\tp_shop\ThinkPHP\Library\Think\Build.class.php 第 161 行.
+NOTIC: [2] file_put_contents(./Application/Runtime/Cache/): failed to open stream: No such file or directory D:\itcast\php9\tp_shop\ThinkPHP\Library\Think\Build.class.php 第 161 行.
+NOTIC: [2] file_put_contents(./Application/Runtime/Cache/Admin/): failed to open stream: No such file or directory D:\itcast\php9\tp_shop\ThinkPHP\Library\Think\Build.class.php 第 161 行.
+NOTIC: [2] file_put_contents(./Application/Runtime/Logs/): failed to open stream: No such file or directory D:\itcast\php9\tp_shop\ThinkPHP\Library\Think\Build.class.php 第 161 行.
+NOTIC: [2] file_put_contents(./Application/Runtime/Logs/Admin/): failed to open stream: No such file or directory D:\itcast\php9\tp_shop\ThinkPHP\Library\Think\Build.class.php 第 161 行.
+NOTIC: [2] file_put_contents(./Application/Runtime/Temp/): failed to open stream: No such file or directory D:\itcast\php9\tp_shop\ThinkPHP\Library\Think\Build.class.php 第 161 行.
+NOTIC: [2] file_put_contents(./Application/Runtime/Data/): failed to open stream: No such file or directory D:\itcast\php9\tp_shop\ThinkPHP\Library\Think\Build.class.php 第 161 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.094006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.095006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-25T15:57:05+08:00 ] 127.0.0.1 /index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Home
+

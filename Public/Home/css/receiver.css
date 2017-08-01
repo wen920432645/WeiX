@@ -1,0 +1,268 @@
+section{
+    background: url("/Public/Home/images/bg.png") no-repeat center top;
+    background-size: cover;
+    height: 100%;
+    color: #fff;
+}
+.language{
+    width: 80%;
+    margin: 35px auto;
+    color: #fff;
+}
+.language input{
+    background-color: transparent;
+    color: #fff;
+}
+.language input:nth-child(1){
+    text-align: left;
+    font-size: 1rem;
+    margin: 20px 0;
+}
+.language input:nth-child(2){
+    text-align: center;
+    font-size: 1.45rem;
+    margin: 20px auto;
+    width: 100%;
+
+}
+.language input:nth-child(3){
+    text-align: right;
+    font-size: .75rem;
+    margin: 20px 0;
+    float: right;
+
+}
+.gift{
+    color: #fff;
+}
+.gift div:nth-child(1){
+    float: right;
+    margin:0 10px;
+    width: 30%;
+    font-size: .75rem;
+    line-height: .75rem;
+}
+.gift div:nth-child(1) img{
+    width: 22%;
+    vertical-align:bottom;
+}
+.gift div:nth-child(1) span{
+    text-align: right;
+    margin-left: 5px;
+
+}
+.gift div:nth-child(2){
+    float: right;
+   border: 1px solid #fff;
+    padding: 2px 10px;
+    margin-right: 10px;
+    font-size: .75rem;
+}
+.messageBoard{
+    width: 95%;
+    margin: 20px auto 0;
+}
+.messageBoard .title{
+    position: relative;
+    width: 100%;
+}
+.messageBoard .title div{
+    width: 35%;
+    float: left;
+    border: 1px dotted #fff;
+}
+.messageBoard .title b{
+   float: left;
+    width:25%;
+    text-align: center;
+    background-color: transparent;
+    margin-top: -.5rem;
+    font-size: 1rem;
+}
+.message-list{
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.message-list li{
+    margin: 20px 0;
+}
+.message-list li div{
+    float: left;
+}
+.message-list li>div:last-child{
+    float: right;
+    font-size: .66rem;
+    position: relative;
+    top: .66rem;
+}
+.message-list .portrait{
+    width: 15%;
+}
+.message-list .portrait img{
+    width: 80%;
+    vertical-align: top;
+}
+.message-border{
+    width: 70%;
+}
+.message-border p{
+    position: relative;
+    top: -2px;
+    left: -26px;
+    margin-bottom:5px;
+    font-size:1rem ;
+    margin-top: 0;
+    transform: scale(.6);
+    -moz-transform: scale(.6);
+    -webkit-transform: scale(.6);
+}
+.message-border p span{
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 0 5px;
+    font-size: .6rem;
+
+}
+.message-border div{
+    position: relative;
+    margin-top: -10px;
+    font-size: .8rem;
+}
+.message-border>div>div span{
+    display: block;
+
+    width: 7rem;
+    height: 25px;
+    float: left;
+    border-radius: 5px;
+    background: url("/Public/Home/images/voice1.png") no-repeat 5px center;
+    background-size: 10% 80%;
+    background-color: #fff;
+}
+.message-border div b{
+    display: block;
+    float: left;
+    font-size: .66rem;
+    font-weight: 300;
+    margin-left: 3px;
+}
+.flowers{
+    /*background: url("../images/flowers.png");*/
+    float: left;
+}
+.flowers img{
+    width: 15%;
+    margin-left: 10px;
+}
+.triangle-left {
+
+    position: absolute;
+    top: .8rem;
+    right: 8.5rem;
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-right: 7px solid #fff;
+    border-bottom: 5px solid transparent;
+}
+.message-list li:last-child div{
+    float: right;
+}
+.message-list li:last-child .message-border p {
+
+    top: -2px;
+    left: 15px;
+
+}
+
+
+
+.footer{
+    margin: 20px auto;
+    width: 90%;
+}
+.footer img{
+    float: left;
+    width: 10%;
+}
+.footer input{
+    margin: 0 10px;
+    border-radius: 5px;
+    padding: 5px;
+    float: left;
+    width: 64%;
+}
+.footer button{
+    border-radius: 5px;
+    border: none;
+    background-color: #22ac38;
+    color: #fff;
+    padding:2px 5px;
+    float: right;
+    width: 15%;
+}
+
+
+
+
+
+#fixed{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+    width: 10rem;
+}
+#fixed span{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+#fixed .prompt{
+    font-size: .66rem;
+}
+#fixed .progress{
+    margin: 10px 0;
+}
+#fixed .public{
+
+}
+#fixed .public>div{
+    float: left;
+}
+#fixed .public>div:first-child{
+    width: 50%;
+}
+#fixed .public>div:first-child p{
+    font-size: .66rem;
+    transform:scale(.8);
+    -moz-transform:scale(.8);
+    -webkit-transform:scale(.8);
+    margin: 0;
+}
+#fixed .public>div:last-child{
+    width: 50%;
+}
+#fixed .public>div:last-child div{
+    font-size: .66rem;
+    /*margin-right: -20px;*/
+    /*transform:scale(.8);*/
+    /*-moz-transform:scale(.8);*/
+    /*-webkit-transform:scale(.8);*/
+}
+#fixed .public>div:last-child button{
+    border-radius: 5px;
+    border: none;
+    background-color: #22ac38;
+    color: #fff;
+    width: 100%;
+    margin: 0 auto;
+    /*padding:2px 5px;*/
+    /*float: right;*/
+    /*width: 15%;*/
+}
